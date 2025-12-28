@@ -59,7 +59,7 @@ const HappyCustomers = () => {
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-2xl border border-gray-200 p-6 h-full min-h-[220px] flex flex-col">
+              <div className="bg-white rounded-2xl border border-gray-200 p-6 h-full min-h-[220] flex flex-col">
                 <div className="flex gap-1 text-yellow-400 mb-3">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star
