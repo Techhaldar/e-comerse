@@ -37,7 +37,7 @@ export const Header = () => {
               {menu && (
                 <div>
                   <div
-                    className="absolute inset-0 bg-black/60 w-full h-full"
+                    className="absolute inset-0 bg-black/60 w-full h-full z-40"
                     onClick={() => setMenu(false)}
                   ></div>
                   <div

@@ -115,7 +115,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <hr />
+        <hr className="text-gray-300" />
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-between max-w-7xl w-full mx-auto py-8 space-y-4">
           <div>Shop.co © 2000-2025, All Rights Reserved</div>
           <div className="flex gap-2 sm:gap-4">
